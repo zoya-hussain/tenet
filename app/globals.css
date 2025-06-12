@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #170e66;
+  --background: #ededed;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: #ededed;
+  font-family: Instrument Sans, sans-serif;
+}
+
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("Instrument_Serif/InstrumentSerif-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
